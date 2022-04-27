@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.linkItem {
+  padding: 0 15px;
+
+  a {
+    color: #000
+  }
+
+  &:hover {
+    background: red;
+  }
+}
+
+.linkActive a {
+  color: blue;
+}
